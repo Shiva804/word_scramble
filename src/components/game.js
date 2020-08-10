@@ -305,7 +305,7 @@ class Game extends Component {
                             this.reset()
 
                             this.setState({seconds:150000})
-                            this.reset()
+                            
 
                         }
                         else if(this.state.level===3)
