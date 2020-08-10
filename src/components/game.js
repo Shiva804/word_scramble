@@ -687,16 +687,19 @@ this.GameOver = () =>
 
                      <h5 id='head'>THREE LETTER WORDS</h5>
                      <hr />
+                     <div id='rr'>
                      {this.state.three.map((words,i)=> <h2 key={i}> {words.toUpperCase()} </h2>)}
-                     
+                 
+                     </div>
                      </div>
 
                      <div id='four'>
 
                      <h5 id='head'>FOUR LETTER WORDS</h5>
                      <hr />
+                     <div id='rr'>
                      {this.state.four.map((words,i)=> <h2 key={i}> {words.toUpperCase()} </h2>)}
-
+                     </div>
 
 
                     </div>
@@ -705,8 +708,9 @@ this.GameOver = () =>
 
                      <h5 id='head'>FIVE LETTER WORDS</h5>
                      <hr />
+                     <div id='rr'>
                      {this.state.five.map((words,i)=> <h2 key={i}> {words.toUpperCase()} </h2>)}
-
+                     </div>
                     </div>
 
 
@@ -714,8 +718,9 @@ this.GameOver = () =>
 
                      <h5 id='head'>SIX LETTER WORDS</h5>
                      <hr />
+                     <div id='rr'>
                      {this.state.six.map((words,i)=> <h2 key={i}> {words.toUpperCase()} </h2>)}
-
+                     </div>
                     </div>
 
 

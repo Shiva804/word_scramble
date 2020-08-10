@@ -190,6 +190,13 @@
     box-shadow: 2px 2px 5px black;
     background-color: rgba(255, 248, 220, 0.596);
     font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#rr
+{
+    height:340px;
+    overflow-y: scroll;
 }
 
 #wordBoxes
