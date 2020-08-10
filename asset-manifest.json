@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/word_scramble/static/css/main.cbf4eb01.chunk.css",
-    "main.js": "/word_scramble/static/js/main.9a3c56ed.chunk.js",
-    "main.js.map": "/word_scramble/static/js/main.9a3c56ed.chunk.js.map",
+    "main.css": "/word_scramble/static/css/main.09e3450b.chunk.css",
+    "main.js": "/word_scramble/static/js/main.311c8b96.chunk.js",
+    "main.js.map": "/word_scramble/static/js/main.311c8b96.chunk.js.map",
     "runtime-main.js": "/word_scramble/static/js/runtime-main.4af7e0bc.js",
     "runtime-main.js.map": "/word_scramble/static/js/runtime-main.4af7e0bc.js.map",
-    "static/js/2.5b07261f.chunk.js": "/word_scramble/static/js/2.5b07261f.chunk.js",
-    "static/js/2.5b07261f.chunk.js.map": "/word_scramble/static/js/2.5b07261f.chunk.js.map",
+    "static/js/2.87d8b533.chunk.js": "/word_scramble/static/js/2.87d8b533.chunk.js",
+    "static/js/2.87d8b533.chunk.js.map": "/word_scramble/static/js/2.87d8b533.chunk.js.map",
     "index.html": "/word_scramble/index.html",
-    "precache-manifest.5371364a77ccfe4a37f496469991c897.js": "/word_scramble/precache-manifest.5371364a77ccfe4a37f496469991c897.js",
+    "precache-manifest.c3c4db3ce60c4d366e926844e7b65ac6.js": "/word_scramble/precache-manifest.c3c4db3ce60c4d366e926844e7b65ac6.js",
     "service-worker.js": "/word_scramble/service-worker.js",
-    "static/css/main.cbf4eb01.chunk.css.map": "/word_scramble/static/css/main.cbf4eb01.chunk.css.map",
-    "static/js/2.5b07261f.chunk.js.LICENSE.txt": "/word_scramble/static/js/2.5b07261f.chunk.js.LICENSE.txt",
+    "static/css/main.09e3450b.chunk.css.map": "/word_scramble/static/css/main.09e3450b.chunk.css.map",
+    "static/js/2.87d8b533.chunk.js.LICENSE.txt": "/word_scramble/static/js/2.87d8b533.chunk.js.LICENSE.txt",
     "static/media/difficulty.css": "/word_scramble/static/media/select1.2d30a497.png",
     "static/media/game.css": "/word_scramble/static/media/pexels-anni-roenkae-2457284.5d50adac.jpg",
     "static/media/gameOver.css": "/word_scramble/static/media/pexels-dids-1424495.a76947d8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4af7e0bc.js",
-    "static/js/2.5b07261f.chunk.js",
-    "static/css/main.cbf4eb01.chunk.css",
-    "static/js/main.9a3c56ed.chunk.js"
+    "static/js/2.87d8b533.chunk.js",
+    "static/css/main.09e3450b.chunk.css",
+    "static/js/main.311c8b96.chunk.js"
   ]
 }
