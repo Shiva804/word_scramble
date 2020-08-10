@@ -54,7 +54,11 @@ class Game extends Component {
 
         this.shuffle=() =>{
             
-            
+            if(this.state.wordsLeft.length===0)
+            {
+                localStorage.setItem('missed',values)
+            }
+    
             let array = this.state.random.split('')
             var shuffled = array.sort(() => Math.random() - 0.5)
             
@@ -80,8 +84,8 @@ class Game extends Component {
         {
             document.getElementById('skip').style.display='none'
         }
-
-
+        
+     
         let rand= words[Math.floor(Math.random()*words.length)];
 
         

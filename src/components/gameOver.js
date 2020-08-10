@@ -28,9 +28,11 @@ class GameOver extends Component {
             if(e.target.id==='mm')
             {
             this.props.history.push('/')
+            localStorage.removeItem('missed')
             }
             if(e.target.id=='cn')
             {
+                localStorage.removeItem('missed')
                 this.props.history.push('/Game')
             }
     
