@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fff112c500202b7ee1563820abc292a",
+    "revision": "addf911aa53218785baf65bda3c482d8",
     "url": "/word_scramble/index.html"
   },
   {
-    "revision": "47a8a954758244b0fd4d",
-    "url": "/word_scramble/static/css/main.09e3450b.chunk.css"
+    "revision": "acc3172ec8997dfed4c4",
+    "url": "/word_scramble/static/css/main.cc4b92dd.chunk.css"
   },
   {
     "revision": "8edc381359f7c5205a1e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/word_scramble/static/js/2.87d8b533.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47a8a954758244b0fd4d",
-    "url": "/word_scramble/static/js/main.311c8b96.chunk.js"
+    "revision": "acc3172ec8997dfed4c4",
+    "url": "/word_scramble/static/js/main.eec5cc20.chunk.js"
   },
   {
     "revision": "de1ee72e419ed06f3a05",
