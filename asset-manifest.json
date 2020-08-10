@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/word_scramble/static/css/main.cc4b92dd.chunk.css",
-    "main.js": "/word_scramble/static/js/main.eec5cc20.chunk.js",
-    "main.js.map": "/word_scramble/static/js/main.eec5cc20.chunk.js.map",
+    "main.js": "/word_scramble/static/js/main.212ff6d8.chunk.js",
+    "main.js.map": "/word_scramble/static/js/main.212ff6d8.chunk.js.map",
     "runtime-main.js": "/word_scramble/static/js/runtime-main.4af7e0bc.js",
     "runtime-main.js.map": "/word_scramble/static/js/runtime-main.4af7e0bc.js.map",
     "static/js/2.87d8b533.chunk.js": "/word_scramble/static/js/2.87d8b533.chunk.js",
     "static/js/2.87d8b533.chunk.js.map": "/word_scramble/static/js/2.87d8b533.chunk.js.map",
     "index.html": "/word_scramble/index.html",
-    "precache-manifest.9e44a36ca061e4dc7c0487ee9fc44e68.js": "/word_scramble/precache-manifest.9e44a36ca061e4dc7c0487ee9fc44e68.js",
+    "precache-manifest.a3c206201f4d098846f9b48dd675ba0c.js": "/word_scramble/precache-manifest.a3c206201f4d098846f9b48dd675ba0c.js",
     "service-worker.js": "/word_scramble/service-worker.js",
     "static/css/main.cc4b92dd.chunk.css.map": "/word_scramble/static/css/main.cc4b92dd.chunk.css.map",
     "static/js/2.87d8b533.chunk.js.LICENSE.txt": "/word_scramble/static/js/2.87d8b533.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4af7e0bc.js",
     "static/js/2.87d8b533.chunk.js",
     "static/css/main.cc4b92dd.chunk.css",
-    "static/js/main.eec5cc20.chunk.js"
+    "static/js/main.212ff6d8.chunk.js"
   ]
 }
