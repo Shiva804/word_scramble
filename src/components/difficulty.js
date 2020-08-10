@@ -13,7 +13,7 @@ class Difficulty extends Component {
         super()
         this.state = 
         {
-            timed:'timed',
+            timed:'free',
             modal:null,
         }
     }
@@ -44,13 +44,26 @@ class Difficulty extends Component {
            {
                document.getElementById('Timed').style.backgroundImage= `url(${img})`
                document.getElementById('free').style.backgroundImage= 'none'
+            document.getElementById('TimedHard').style.backgroundImage= 'none'
+
                this.setState({timed:'timed'})
            }
-           else
+           else if(e.target.id==='free')
            {
             document.getElementById('free').style.backgroundImage= `url(${img})`
             document.getElementById('Timed').style.backgroundImage= 'none'
+            document.getElementById('TimedHard').style.backgroundImage= 'none'
+
                this.setState({timed:'free'})
+           }
+           else
+           {
+            document.getElementById('TimedHard').style.backgroundImage= `url(${img})`
+            document.getElementById('Timed').style.backgroundImage= 'none'
+            document.getElementById('free').style.backgroundImage= 'none'
+
+               this.setState({timed:'TimedHard'})
+
            }
          }
 
@@ -65,8 +78,10 @@ class Difficulty extends Component {
                     <h3 id='subHead'>Select Difficulty</h3>
                     
                     
-                        <h2 id='Timed' onClick={(e)=>this.handle(e)}>TIMED MODE</h2><br /><br />
                         <h2 id='free' onClick={(e)=>this.handle(e)}>FREE-PLAY MODE</h2>
+                        <h2 id='Timed' onClick={(e)=>this.handle(e)}>TIMED MODE</h2>
+                        <h2 id='TimedHard' onClick={(e)=>this.handle(e)}>TIMED MODE - HARD</h2>
+
                         {this.state.modal===true?
                         
                             <Instruction close={this.close}/>

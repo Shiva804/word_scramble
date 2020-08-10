@@ -126,7 +126,7 @@
     background-color: rgb(243, 116, 66);
     outline:none;
     box-shadow: 1px 6px 4px rgb(43, 42, 42);
-    display: none;
+    display:inline;
     font-weight: bold;
 }
 #jumble

@@ -51,6 +51,7 @@ class Game extends Component {
         const words  = Object.keys(data)
         let values =data[this.state.random]
 
+
         this.shuffle=() =>{
             
             
@@ -75,6 +76,11 @@ class Game extends Component {
     this.random =() =>
     {
             
+        if(localStorage.getItem('dif')==='TimedHard')
+        {
+            document.getElementById('skip').style.display='none'
+        }
+
 
         let rand= words[Math.floor(Math.random()*words.length)];
 
@@ -124,7 +130,7 @@ class Game extends Component {
       let a = [0,0,0,0,0,0,0,0,0,0,0,0]
       this.setState({disabled:a})
       this.random()
-      this.setState({guessed:[]})   
+
     }
 
 
@@ -246,19 +252,25 @@ class Game extends Component {
                     this.setState({level:this.state.level+1} ,()=>{
                             if(this.state.level===2)
                             {
-                                document.getElementById('skip').style.display='inline'
                                 this.setState({seconds:150000})
+                                this.reset()
                             }
                             else if(this.state.level===3)
                             {
+                                this.reset()
+                                
                                 this.setState({seconds:120000})
                             }
                             else if(this.state.level===4)
                             {
+                                this.reset()
+
                                 this.setState({seconds:90000})
                             }
                             else
                             {
+                                this.reset()
+
                                 this.setState({seconds:60000})
                             }
 
@@ -290,20 +302,29 @@ class Game extends Component {
                     this.setState({level:this.state.level+1} ,()=>{
                         if(this.state.level===2)
                         {
-                            document.getElementById('skip').style.display='inline'
+                            this.reset()
+
                             this.setState({seconds:150000})
+                            this.reset()
+
                         }
                         else if(this.state.level===3)
                         {
                             this.setState({seconds:120000})
+                            this.reset()
+
                         }
                         else if(this.state.level===4)
                         {
                             this.setState({seconds:90000})
+                            this.reset()
+
                         }
                         else
                         {
                             this.setState({seconds:60000})
+                            this.reset()
+
                         }
 
                 })
@@ -337,21 +358,26 @@ class Game extends Component {
                     this.setState({level:this.state.level+1} ,()=>{
                         if(this.state.level===2)
                         {
-                           document.getElementById('skip').style.display='inline'
-
+                            this.reset()
                             this.setState({seconds:150000})
                         }
                         else if(this.state.level===3)
                         {
                             this.setState({seconds:120000})
+                            this.reset()
+
                         }
                         else if(this.state.level===4)
                         {
                             this.setState({seconds:90000})
+                            this.reset()
+
                         }
                         else
                         {
                             this.setState({seconds:60000})
+                            this.reset()
+
                         }
 
                 })
@@ -382,21 +408,27 @@ class Game extends Component {
                     this.setState({level:this.state.level+1} ,()=>{
                         if(this.state.level===2)
                         {
-                           document.getElementById('skip').style.display='inline'
+                            this.reset()
 
                             this.setState({seconds:150000})
                         }
                         else if(this.state.level===3)
                         {
                             this.setState({seconds:120000})
+                            this.reset()
+
                         }
                         else if(this.state.level===4)
                         {
                             this.setState({seconds:90000})
+                            this.reset()
+
                         }
                         else
                         {
                             this.setState({seconds:60000})
+                            this.reset()
+
                         }
 
                 })
@@ -601,6 +633,16 @@ this.GameOver = () =>
                 null
                 
           
+                }
+                {
+                                  localStorage.getItem('dif')==='TimedHard'?
+                                  <Timer 
+                                onTimerEndHandler={this.GameOver()} 
+                                seconds={this.state.seconds} 
+                                 setTimeHandler={this.setTimeHandler} />
+                                  :
+                                  null
+                                  
                 }
 
 

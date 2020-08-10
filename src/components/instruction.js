@@ -44,13 +44,12 @@ import '../styles/instruction.css'
                     
                     <li>In <b>FREE-PLAY</b> mode there is no time limit.</li><br />
                     <li>In <b>TIMED</b> mode you will have <b>3 Mins</b> at <b>Level 1</b> and <b>30 Sec </b> will be reduced in further levels.</li><br />
-                    <li>From <b>Level 5</b> the time will be reduced to <b>1 Min</b>.</li><br />
+                    <li>In <b>TIMED MODE-HARD</b> words cannot be <b>skipped</b>.</li><br />
+                   <li>From <b>Level 5</b> the time will be reduced to <b>1 Min</b>.</li><br />
                     <li>A jumbled word will be displayed on screen.</li><br />
-                    <li>You have to form Three,Four,Five or Six letter words from the jumbled word.</li><br />
+                    <li>You have to form <b>Three,Four,Five or Six </b> letter words from the jumbled word.</li><br />
                     <li>For each incorrect word <b>2 Points</b> will be reduced from the score.</li><br />
                     <li>Score <b>100 Points</b> in each level to move on to the next level.</li><br />
-                    <li>At <b>Level 1</b> you will not have the <b>SKIP Button</b>.</li><br />
-                    <li>From <b>Level 2</b> you can <b>SKIP</b> the words if you want.</li><br />
                     <li><b>5 Points</b>,<b>10 Points</b>,<b>20 Points</b> and <b>100 Points</b> will be awarded 
                     to each correct <b>Three</b>,<b>Four</b>,<b>Five</b> and <b>Six</b> letter words respectively.
                     </li><br />

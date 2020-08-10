@@ -18,9 +18,8 @@ class GameOver extends Component {
      let mw = ''
     this.genWrds = () =>
         {
-            gw =  this.state.guessed.map((word,i) => <h2 id={i}>{word.toUpperCase()}</h2> )
-            mw =  this.state.missed.map((word,i) => <h2 id={i}>{word.toUpperCase()}</h2>)
-
+            gw =  this.state.guessed.map((word,i) => <h2 id={i} key={i}>{word.toUpperCase()}</h2> )
+            mw =  this.state.missed.map((word,i) => <h2 id={i} key={i}>{word.toUpperCase()}</h2>)
             return(gw)
         }
 
